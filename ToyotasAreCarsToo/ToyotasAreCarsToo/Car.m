@@ -1,19 +1,30 @@
 //
-//  Car.m
+//  NSObject+Car.m
 //  ToyotasAreCarsToo
 //
-//  Created by Colin on 2018-02-27.
+//  Created by Colin on 2018-03-09.
 //  Copyright © 2018 Colin Russell. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Car.h"
 
-NSString* model;
+@implementation Car
 
-void drive(){
-    NSLog(@"The model of the car is: %@", model);
+@synthesize model;
+
+// print the model of the car
+-(void) drive{
+    NSLog(@"The model of the car you are driving is: %@", _model);
 }
 
-void initWithModel(NSString* carModel){
-    model = carModel;
+// set model to _model
+-(id) initWithModel : (NSString*) model{
+    
+    self = [super init];
+    if (self)
+        _model = model;
+    return self;
+    
 }
+
+@end

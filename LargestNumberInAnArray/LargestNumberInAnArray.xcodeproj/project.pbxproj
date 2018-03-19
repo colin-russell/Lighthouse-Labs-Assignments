@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B00616E2052FE44003C5487 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B00616D2052FE44003C5487 /* Car.m */; };
-		3B404BD820583A4C003B1B6F /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B404BD720583A4C003B1B6F /* Toyota.m */; };
-		3BA127D22045ED3400240E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA127D12045ED3400240E95 /* main.m */; };
+		3B71D0B020599D760080594D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B71D0AF20599D760080594D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3BA127CC2045ED3400240E95 /* CopyFiles */ = {
+		3B71D0AA20599D760080594D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B00616C2052FE44003C5487 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		3B00616D2052FE44003C5487 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		3B404BD620583A4C003B1B6F /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
-		3B404BD720583A4C003B1B6F /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
-		3BA127CE2045ED3400240E95 /* ToyotasAreCarsToo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToyotasAreCarsToo; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA127D12045ED3400240E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B71D0AC20599D760080594D /* LargestNumberInAnArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LargestNumberInAnArray; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B71D0AF20599D760080594D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BA127CB2045ED3400240E95 /* Frameworks */ = {
+		3B71D0A920599D760080594D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BA127C52045ED3400240E95 = {
+		3B71D0A320599D760080594D = {
 			isa = PBXGroup;
 			children = (
-				3BA127D02045ED3400240E95 /* ToyotasAreCarsToo */,
-				3BA127CF2045ED3400240E95 /* Products */,
+				3B71D0AE20599D760080594D /* LargestNumberInAnArray */,
+				3B71D0AD20599D760080594D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3BA127CF2045ED3400240E95 /* Products */ = {
+		3B71D0AD20599D760080594D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BA127CE2045ED3400240E95 /* ToyotasAreCarsToo */,
+				3B71D0AC20599D760080594D /* LargestNumberInAnArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BA127D02045ED3400240E95 /* ToyotasAreCarsToo */ = {
+		3B71D0AE20599D760080594D /* LargestNumberInAnArray */ = {
 			isa = PBXGroup;
 			children = (
-				3BA127D12045ED3400240E95 /* main.m */,
-				3B00616C2052FE44003C5487 /* Car.h */,
-				3B00616D2052FE44003C5487 /* Car.m */,
-				3B404BD620583A4C003B1B6F /* Toyota.h */,
-				3B404BD720583A4C003B1B6F /* Toyota.m */,
+				3B71D0AF20599D760080594D /* main.m */,
 			);
-			path = ToyotasAreCarsToo;
+			path = LargestNumberInAnArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BA127CD2045ED3400240E95 /* ToyotasAreCarsToo */ = {
+		3B71D0AB20599D760080594D /* LargestNumberInAnArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA127D52045ED3400240E95 /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */;
+			buildConfigurationList = 3B71D0B320599D760080594D /* Build configuration list for PBXNativeTarget "LargestNumberInAnArray" */;
 			buildPhases = (
-				3BA127CA2045ED3400240E95 /* Sources */,
-				3BA127CB2045ED3400240E95 /* Frameworks */,
-				3BA127CC2045ED3400240E95 /* CopyFiles */,
+				3B71D0A820599D760080594D /* Sources */,
+				3B71D0A920599D760080594D /* Frameworks */,
+				3B71D0AA20599D760080594D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ToyotasAreCarsToo;
-			productName = ToyotasAreCarsToo;
-			productReference = 3BA127CE2045ED3400240E95 /* ToyotasAreCarsToo */;
+			name = LargestNumberInAnArray;
+			productName = LargestNumberInAnArray;
+			productReference = 3B71D0AC20599D760080594D /* LargestNumberInAnArray */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BA127C62045ED3400240E95 /* Project object */ = {
+		3B71D0A420599D760080594D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Colin Russell";
 				TargetAttributes = {
-					3BA127CD2045ED3400240E95 = {
+					3B71D0AB20599D760080594D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3BA127C92045ED3400240E95 /* Build configuration list for PBXProject "ToyotasAreCarsToo" */;
+			buildConfigurationList = 3B71D0A720599D760080594D /* Build configuration list for PBXProject "LargestNumberInAnArray" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3BA127C52045ED3400240E95;
-			productRefGroup = 3BA127CF2045ED3400240E95 /* Products */;
+			mainGroup = 3B71D0A320599D760080594D;
+			productRefGroup = 3B71D0AD20599D760080594D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BA127CD2045ED3400240E95 /* ToyotasAreCarsToo */,
+				3B71D0AB20599D760080594D /* LargestNumberInAnArray */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BA127CA2045ED3400240E95 /* Sources */ = {
+		3B71D0A820599D760080594D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B00616E2052FE44003C5487 /* Car.m in Sources */,
-				3B404BD820583A4C003B1B6F /* Toyota.m in Sources */,
-				3BA127D22045ED3400240E95 /* main.m in Sources */,
+				3B71D0B020599D760080594D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3BA127D32045ED3400240E95 /* Debug */ = {
+		3B71D0B120599D760080594D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		3BA127D42045ED3400240E95 /* Release */ = {
+		3B71D0B220599D760080594D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +229,7 @@
 			};
 			name = Release;
 		};
-		3BA127D62045ED3400240E95 /* Debug */ = {
+		3B71D0B420599D760080594D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		3BA127D72045ED3400240E95 /* Release */ = {
+		3B71D0B520599D760080594D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +248,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BA127C92045ED3400240E95 /* Build configuration list for PBXProject "ToyotasAreCarsToo" */ = {
+		3B71D0A720599D760080594D /* Build configuration list for PBXProject "LargestNumberInAnArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA127D32045ED3400240E95 /* Debug */,
-				3BA127D42045ED3400240E95 /* Release */,
+				3B71D0B120599D760080594D /* Debug */,
+				3B71D0B220599D760080594D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BA127D52045ED3400240E95 /* Build configuration list for PBXNativeTarget "ToyotasAreCarsToo" */ = {
+		3B71D0B320599D760080594D /* Build configuration list for PBXNativeTarget "LargestNumberInAnArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA127D62045ED3400240E95 /* Debug */,
-				3BA127D72045ED3400240E95 /* Release */,
+				3B71D0B420599D760080594D /* Debug */,
+				3B71D0B520599D760080594D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3BA127C62045ED3400240E95 /* Project object */;
+	rootObject = 3B71D0A420599D760080594D /* Project object */;
 }
