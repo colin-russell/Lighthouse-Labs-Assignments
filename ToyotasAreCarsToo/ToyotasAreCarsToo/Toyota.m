@@ -14,8 +14,7 @@
 
 // override init when Toyota object is created
 -(id)init{
-    self = [super init];
-    _model = @"Prius";
+    self = [self initWithModel:@"Prius"];
     return self;
 }
 

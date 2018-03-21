@@ -10,10 +10,6 @@
 
 @interface Car : NSObject
 
-// instance variable _model
-{
-NSString* _model;
-}
 @property NSString* model;
 
 -(void) drive;

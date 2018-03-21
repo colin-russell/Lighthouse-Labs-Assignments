@@ -10,19 +10,17 @@
 
 @implementation Car
 
-@synthesize model;
-
 // print the model of the car
 -(void) drive{
     NSLog(@"The model of the car you are driving is: %@", _model);
 }
 
 // set model to _model
--(id) initWithModel : (NSString*) model{
+-(id) initWithModel : (NSString*) initialModel{
     
     self = [super init];
     if (self)
-        _model = model;
+        _model = initialModel;
     return self;
     
 }

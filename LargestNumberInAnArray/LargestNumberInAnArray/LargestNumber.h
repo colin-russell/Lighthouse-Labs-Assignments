@@ -1,5 +1,5 @@
 //
-//  NSObject+LargestNumber.h
+//  LargestNumber.h
 //  LargestNumberInAnArray
 //
 //  Created by Colin on 2018-03-14.
@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (LargestNumber)
+@interface LargestNumber : NSObject
+
+@property int largestInt;
+
+-(int) largest : (NSArray*) array;
 
 @end

@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LargestNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        NSArray *array = @[@0, @5, @3, @40, @6, @8, @3, @55];
+        
+        // create new object and initialize
+        LargestNumber* a = [[LargestNumber alloc]init];
+        
+        int largestNumber = [a largest:array];
+        NSLog(@"The largest number in the array is: %i", largestNumber);
+        
     }
     return 0;
 }
