@@ -10,18 +10,16 @@
 
 @implementation LargestNumber
 
-@synthesize largestInt;
-
 -(int) largest : (NSArray*) array{
     
     NSUInteger sizeOfArray = [array count];
-    NSLog(@"The size of the array is: %ld", sizeOfArray); // for debugging purposes
+    //NSLog(@"The size of the array is: %ld", sizeOfArray); // for debugging purposes
+    int largestInt = 0;
     
     // go through each element on by to see what the largest int is
     for (int i = 0; i < sizeOfArray; i++) {
         if ([[array objectAtIndex:i] intValue]> largestInt)
             largestInt = [[array objectAtIndex:i] intValue];
-        NSLog(@"Array place is: %i and the largest number so far is: %i", i, largestInt );
     }
     
     return largestInt;

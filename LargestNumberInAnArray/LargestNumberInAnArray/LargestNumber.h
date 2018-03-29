@@ -10,8 +10,6 @@
 
 @interface LargestNumber : NSObject
 
-@property int largestInt;
-
 -(int) largest : (NSArray*) array;
 
 @end

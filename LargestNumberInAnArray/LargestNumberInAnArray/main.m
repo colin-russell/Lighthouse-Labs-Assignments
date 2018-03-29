@@ -17,8 +17,7 @@ int main(int argc, const char * argv[]) {
         // create new object and initialize
         LargestNumber* a = [[LargestNumber alloc]init];
         
-        int largestNumber = [a largest:array];
-        NSLog(@"The largest number in the array is: %i", largestNumber);
+        NSLog(@"The largest number in the array is: %i", [a largest:array]);
         
     }
     return 0;
